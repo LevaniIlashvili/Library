@@ -1,0 +1,161 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    padding: 30px;
+    border: 1px solid #888;
+    width: 250px;
+    height: 300px;
+    margin: 10% auto;
+    border-radius: 10px;
+    border: none;
+}
+
+.modal-content h3 {
+    margin-bottom: 20px;
+}
+
+.modal-content input {
+    width: 250px;
+    height: 40px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border: none;
+}
+
+.modal-content input:focus {
+    outline: none;
+}
+
+.modal-content button {
+    width: 230px;
+    height: 45px;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #9fff9c;
+}
+
+.modal-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.modal-container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.card {
+    border: solid 1px;
+    width: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    border: none;
+    box-shadow: 0px 0px 10px rgb(177, 174, 174);
+    border-radius: 10px;
+    padding: 20px;
+    gap: 10px;
+}
+
+p {
+    min-width: max-content;
+    font-size: 16px;
+    color: rgb(73, 72, 72);
+}
+
+input[type='checkbox'] {
+    width: 0;
+    height: 0;
+}
+
+#read {
+    width: auto;
+    height: auto;
+}
+
+.read-label {
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+header {
+    box-shadow: 0 2px 5px rgb(158, 154, 154);
+    padding: 20px;
+    padding-left: 50px;
+    margin-bottom: 20px;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    gap: 20px
+}
+
+.add {
+    width: 180px;
+    display: block;
+    border: none;
+    font-size: 23px;
+    cursor: pointer;
+    font-weight: 600;
+    align-self: center;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+.add:hover {
+    background-color: rgb(204, 204, 204);
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+    padding: 0 30px;
+    row-gap: 30px;
+} 
+
+.remove {
+    width: 240px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.remove:hover {
+    background-color: rgb(204, 204, 204);
+}
+
+
+
